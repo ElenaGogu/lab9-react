@@ -19,7 +19,7 @@ function PaginaStart(){
 
     const trimitere = (e) => {
         e.preventDefault();
-        const verifNume = numele.trim() === "" ? setEroare({...erori, numele: "Nu este introdus numele"}) : setEroare("");
+        
         if (numele.trim() === ""){
             setEroare({...erori, numele: "Numele nu este introdus"});
             return;
