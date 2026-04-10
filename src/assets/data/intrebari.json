@@ -1,0 +1,487 @@
+[
+  {
+    "id": 1,
+    "categorie": "HTML & CSS",
+    "dificultate": "ușor",
+    "intrebare": "Ce înseamnă HTML?",
+    "optiuni": [
+      "HyperText Markup Language",
+      "High Text Machine Language",
+      "Home Tool Markup Language",
+      "HyperText Management Language"
+    ],
+    "raspunsCorect": "HyperText Markup Language"
+  },
+  {
+    "id": 2,
+    "categorie": "HTML & CSS",
+    "dificultate": "ușor",
+    "intrebare": "Ce etichetă creează un link în HTML?",
+    "optiuni": ["<a>", "<link>", "<href>", "<url>"],
+    "raspunsCorect": "<a>"
+  },
+  {
+    "id": 3,
+    "categorie": "HTML & CSS",
+    "dificultate": "ușor",
+    "intrebare": "Ce etichetă definește cel mai mare titlu?",
+    "optiuni": ["<h1>", "<h6>", "<title>", "<big>"],
+    "raspunsCorect": "<h1>"
+  },
+  {
+    "id": 4,
+    "categorie": "HTML & CSS",
+    "dificultate": "ușor",
+    "intrebare": "Ce atribut specifică adresa unui link?",
+    "optiuni": ["href", "src", "url", "link"],
+    "raspunsCorect": "href"
+  },
+  {
+    "id": 5,
+    "categorie": "HTML & CSS",
+    "dificultate": "ușor",
+    "intrebare": "Ce proprietate CSS schimbă culoarea textului?",
+    "optiuni": ["color", "text-color", "font-color", "foreground"],
+    "raspunsCorect": "color"
+  },
+  {
+    "id": 6,
+    "categorie": "HTML & CSS",
+    "dificultate": "mediu",
+    "intrebare": "Ce înseamnă CSS?",
+    "optiuni": [
+      "Cascading Style Sheets",
+      "Creative Style System",
+      "Computer Style Sheets",
+      "Cascading Simple Styles"
+    ],
+    "raspunsCorect": "Cascading Style Sheets"
+  },
+  {
+    "id": 7,
+    "categorie": "HTML & CSS",
+    "dificultate": "mediu",
+    "intrebare": "Ce valoare display face elementele flexibile?",
+    "optiuni": ["flex", "block", "inline", "grid"],
+    "raspunsCorect": "flex"
+  },
+  {
+    "id": 8,
+    "categorie": "HTML & CSS",
+    "dificultate": "mediu",
+    "intrebare": "Ce pseudo-clasă se activează la hover?",
+    "optiuni": [":hover", ":focus", ":active", ":visited"],
+    "raspunsCorect": ":hover"
+  },
+  {
+    "id": 9,
+    "categorie": "HTML & CSS",
+    "dificultate": "mediu",
+    "intrebare": "Ce etichetă HTML5 este pentru navigație?",
+    "optiuni": ["<nav>", "<menu>", "<header>", "<links>"],
+    "raspunsCorect": "<nav>"
+  },
+  {
+    "id": 10,
+    "categorie": "HTML & CSS",
+    "dificultate": "mediu",
+    "intrebare": "Ce proprietate CSS rotunjește colțurile?",
+    "optiuni": ["border-radius", "border-round", "corner-radius", "round"],
+    "raspunsCorect": "border-radius"
+  },
+  {
+    "id": 11,
+    "categorie": "HTML & CSS",
+    "dificultate": "greu",
+    "intrebare": "Ce proprietate CSS creează un layout în rânduri și coloane?",
+    "optiuni": ["grid", "flex", "table", "columns"],
+    "raspunsCorect": "grid"
+  },
+  {
+    "id": 12,
+    "categorie": "HTML & CSS",
+    "dificultate": "greu",
+    "intrebare": "Ce valoare position fixează elementul față de viewport?",
+    "optiuni": ["fixed", "absolute", "relative", "sticky"],
+    "raspunsCorect": "fixed"
+  },
+  {
+    "id": 13,
+    "categorie": "HTML & CSS",
+    "dificultate": "greu",
+    "intrebare": "Ce unitate CSS este relativă la fontul rădăcină?",
+    "optiuni": ["rem", "px", "em", "vh"],
+    "raspunsCorect": "rem"
+  },
+  {
+    "id": 14,
+    "categorie": "HTML & CSS",
+    "dificultate": "greu",
+    "intrebare": "Ce atribut este necesar pentru accesibilitate la imagini?",
+    "optiuni": ["alt", "title", "aria", "desc"],
+    "raspunsCorect": "alt"
+  },
+  {
+    "id": 15,
+    "categorie": "HTML & CSS",
+    "dificultate": "greu",
+    "intrebare": "Ce proprietate CSS controlează ordinea elementelor flex?",
+    "optiuni": ["order", "index", "rank", "position"],
+    "raspunsCorect": "order"
+  },
+  {
+    "id": 16,
+    "categorie": "JavaScript",
+    "dificultate": "ușor",
+    "intrebare": "Cum afișezi ceva în consolă?",
+    "optiuni": ["console.log()", "print()", "echo()", "write()"],
+    "raspunsCorect": "console.log()"
+  },
+  {
+    "id": 17,
+    "categorie": "JavaScript",
+    "dificultate": "ușor",
+    "intrebare": "Ce cuvânt cheie declară o variabilă imutabilă?",
+    "optiuni": ["const", "let", "var", "static"],
+    "raspunsCorect": "const"
+  },
+  {
+    "id": 18,
+    "categorie": "JavaScript",
+    "dificultate": "ușor",
+    "intrebare": "Ce metodă adaugă un element la sfârșitul unui array?",
+    "optiuni": ["push()", "append()", "add()", "insert()"],
+    "raspunsCorect": "push()"
+  },
+  {
+    "id": 19,
+    "categorie": "JavaScript",
+    "dificultate": "ușor",
+    "intrebare": "Cum se scrie o funcție săgeată simplă?",
+    "optiuni": [
+      "const fn = () => {}",
+      "const fn = -> {}",
+      "function fn => {}",
+      "fn = () =>"
+    ],
+    "raspunsCorect": "const fn = () => {}"
+  },
+  {
+    "id": 20,
+    "categorie": "JavaScript",
+    "dificultate": "ușor",
+    "intrebare": "Ce returnează typeof null?",
+    "optiuni": ["'object'", "'null'", "'undefined'", "'string'"],
+    "raspunsCorect": "'object'"
+  },
+  {
+    "id": 21,
+    "categorie": "JavaScript",
+    "dificultate": "mediu",
+    "intrebare": "Ce face Array.map()?",
+    "optiuni": [
+      "Creează un array nou din fiecare element",
+      "Caută un element",
+      "Sortează array-ul",
+      "Șterge elemente"
+    ],
+    "raspunsCorect": "Creează un array nou din fiecare element"
+  },
+  {
+    "id": 22,
+    "categorie": "JavaScript",
+    "dificultate": "mediu",
+    "intrebare": "Ce diferență este între == și ===?",
+    "optiuni": [
+      "=== verifică și tipul datei",
+      "== este mai strict",
+      "Nu există diferență",
+      "=== e doar pentru numere"
+    ],
+    "raspunsCorect": "=== verifică și tipul datei"
+  },
+  {
+    "id": 23,
+    "categorie": "JavaScript",
+    "dificultate": "mediu",
+    "intrebare": "Ce face operatorul spread (...)?",
+    "optiuni": [
+      "Extinde elementele unui array",
+      "Împarte un string",
+      "Calculează restul",
+      "Compară două valori"
+    ],
+    "raspunsCorect": "Extinde elementele unui array"
+  },
+  {
+    "id": 24,
+    "categorie": "JavaScript",
+    "dificultate": "mediu",
+    "intrebare": "Ce este un Promise?",
+    "optiuni": [
+      "Rezultatul viitor al unei operații asincrone",
+      "O funcție sincronă",
+      "Un tip de variabilă",
+      "O buclă specială"
+    ],
+    "raspunsCorect": "Rezultatul viitor al unei operații asincrone"
+  },
+  {
+    "id": 25,
+    "categorie": "JavaScript",
+    "dificultate": "mediu",
+    "intrebare": "Ce face Array.filter()?",
+    "optiuni": [
+      "Returnează elementele care trec un test",
+      "Sortează array-ul",
+      "Elimină duplicate",
+      "Inversează array-ul"
+    ],
+    "raspunsCorect": "Returnează elementele care trec un test"
+  },
+  {
+    "id": 26,
+    "categorie": "JavaScript",
+    "dificultate": "greu",
+    "intrebare": "Ce este event bubbling?",
+    "optiuni": [
+      "Evenimentul urcă de la copil spre părinte",
+      "Evenimentul coboară de la părinte spre copil",
+      "Evenimentul se repetă",
+      "Evenimentul este oprit"
+    ],
+    "raspunsCorect": "Evenimentul urcă de la copil spre părinte"
+  },
+  {
+    "id": 27,
+    "categorie": "JavaScript",
+    "dificultate": "greu",
+    "intrebare": "Ce este hoisting?",
+    "optiuni": [
+      "Declarațiile sunt mutate sus în scope",
+      "Variabilele sunt șterse automat",
+      "Funcțiile se sortează alfabetic",
+      "Codul se execută invers"
+    ],
+    "raspunsCorect": "Declarațiile sunt mutate sus în scope"
+  },
+  {
+    "id": 28,
+    "categorie": "JavaScript",
+    "dificultate": "greu",
+    "intrebare": "Ce face Array.reduce()?",
+    "optiuni": [
+      "Reduce array-ul la o singură valoare",
+      "Elimină duplicate",
+      "Inversează array-ul",
+      "Filtrează elementele false"
+    ],
+    "raspunsCorect": "Reduce array-ul la o singură valoare"
+  },
+  {
+    "id": 29,
+    "categorie": "JavaScript",
+    "dificultate": "greu",
+    "intrebare": "Ce este un closure?",
+    "optiuni": [
+      "Funcție care ține minte variabilele din jur",
+      "O metodă de a închide browserul",
+      "Un tip de buclă",
+      "O eroare de sintaxă"
+    ],
+    "raspunsCorect": "Funcție care ține minte variabilele din jur"
+  },
+  {
+    "id": 30,
+    "categorie": "JavaScript",
+    "dificultate": "greu",
+    "intrebare": "Ce returnează Object.keys()?",
+    "optiuni": [
+      "Array cu cheile obiectului",
+      "Array cu valorile obiectului",
+      "Numărul de proprietăți",
+      "Primul element al obiectului"
+    ],
+    "raspunsCorect": "Array cu cheile obiectului"
+  },
+  {
+    "id": 31,
+    "categorie": "React",
+    "dificultate": "ușor",
+    "intrebare": "Ce este React?",
+    "optiuni": [
+      "Bibliotecă pentru interfețe utilizator",
+      "Framework pentru backend",
+      "Limbaj de programare",
+      "Sistem de baze de date"
+    ],
+    "raspunsCorect": "Bibliotecă pentru interfețe utilizator"
+  },
+  {
+    "id": 32,
+    "categorie": "React",
+    "dificultate": "ușor",
+    "intrebare": "Ce hook gestionează starea unui component?",
+    "optiuni": ["useState", "useEffect", "useContext", "useRef"],
+    "raspunsCorect": "useState"
+  },
+  {
+    "id": 33,
+    "categorie": "React",
+    "dificultate": "ușor",
+    "intrebare": "Cum se transmit date de la părinte la copil?",
+    "optiuni": ["Prin props", "Prin state", "Prin context", "Prin ref"],
+    "raspunsCorect": "Prin props"
+  },
+  {
+    "id": 34,
+    "categorie": "React",
+    "dificultate": "ușor",
+    "intrebare": "Ce înseamnă JSX?",
+    "optiuni": [
+      "Sintaxă HTML în JavaScript",
+      "Un fișier de configurare",
+      "Un tip de componentă",
+      "O metodă de stilizare"
+    ],
+    "raspunsCorect": "Sintaxă HTML în JavaScript"
+  },
+  {
+    "id": 35,
+    "categorie": "React",
+    "dificultate": "ușor",
+    "intrebare": "Ce face useEffect?",
+    "optiuni": [
+      "Execută cod după randare",
+      "Creează o nouă stare",
+      "Optimizează performanța",
+      "Gestionează erorile"
+    ],
+    "raspunsCorect": "Execută cod după randare"
+  },
+  {
+    "id": 36,
+    "categorie": "React",
+    "dificultate": "mediu",
+    "intrebare": "Ce este Virtual DOM?",
+    "optiuni": [
+      "Copie în memorie a DOM-ului real",
+      "DOM fără browser",
+      "Un tip de componentă",
+      "Randare pe server"
+    ],
+    "raspunsCorect": "Copie în memorie a DOM-ului real"
+  },
+  {
+    "id": 37,
+    "categorie": "React",
+    "dificultate": "mediu",
+    "intrebare": "Ce hook evită recalcularea costisitoare la fiecare randare?",
+    "optiuni": ["useMemo", "useCallback", "useEffect", "useReducer"],
+    "raspunsCorect": "useMemo"
+  },
+  {
+    "id": 38,
+    "categorie": "React",
+    "dificultate": "mediu",
+    "intrebare": "Ce este Context API?",
+    "optiuni": [
+      "Partajare date fără props manual",
+      "Apeluri către API externe",
+      "Sistem de rutare",
+      "Stilizare globală"
+    ],
+    "raspunsCorect": "Partajare date fără props manual"
+  },
+  {
+    "id": 39,
+    "categorie": "React",
+    "dificultate": "mediu",
+    "intrebare": "De ce este important atributul key în liste?",
+    "optiuni": [
+      "Ajută React să identifice schimbările",
+      "Este necesar pentru stilizare",
+      "Definește ordinea randării",
+      "Este obligatoriu în JSX"
+    ],
+    "raspunsCorect": "Ajută React să identifice schimbările"
+  },
+  {
+    "id": 40,
+    "categorie": "React",
+    "dificultate": "mediu",
+    "intrebare": "Ce este un controlled component?",
+    "optiuni": [
+      "Input controlat de state-ul React",
+      "Component protejat cu parolă",
+      "Component fără props",
+      "Component doar citire"
+    ],
+    "raspunsCorect": "Input controlat de state-ul React"
+  },
+  {
+    "id": 41,
+    "categorie": "React",
+    "dificultate": "greu",
+    "intrebare": "Ce face useReducer?",
+    "optiuni": [
+      "Gestionează stări complexe cu acțiuni",
+      "Reduce dimensiunea bundle-ului",
+      "Combină mai multe state-uri",
+      "Optimizează randarea"
+    ],
+    "raspunsCorect": "Gestionează stări complexe cu acțiuni"
+  },
+  {
+    "id": 42,
+    "categorie": "React",
+    "dificultate": "greu",
+    "intrebare": "Ce este React.memo?",
+    "optiuni": [
+      "Previne re-randarea dacă props nu s-au schimbat",
+      "Salvează date în localStorage",
+      "Cache-uiește cereri API",
+      "Clonează componente"
+    ],
+    "raspunsCorect": "Previne re-randarea dacă props nu s-au schimbat"
+  },
+  {
+    "id": 43,
+    "categorie": "React",
+    "dificultate": "greu",
+    "intrebare": "Ce face useCallback?",
+    "optiuni": [
+      "Memoizează o funcție între randări",
+      "Apelează automat o funcție",
+      "Înlocuiește useEffect",
+      "Creează funcții globale"
+    ],
+    "raspunsCorect": "Memoizează o funcție între randări"
+  },
+  {
+    "id": 44,
+    "categorie": "React",
+    "dificultate": "greu",
+    "intrebare": "Ce este reconcilierea în React?",
+    "optiuni": [
+      "Compararea Virtual DOM vechi cu cel nou",
+      "Sincronizarea cu serverul",
+      "Rezolvarea conflictelor props",
+      "Sortarea componentelor"
+    ],
+    "raspunsCorect": "Compararea Virtual DOM vechi cu cel nou"
+  },
+  {
+    "id": 45,
+    "categorie": "React",
+    "dificultate": "greu",
+    "intrebare": "Ce este un custom hook?",
+    "optiuni": [
+      "Funcție care începe cu 'use' și apelează alți hooks",
+      "Hook creat de echipa React",
+      "Hook doar pentru clase",
+      "Extensie a elementelor HTML"
+    ],
+    "raspunsCorect": "Funcție care începe cu 'use' și apelează alți hooks"
+  }
+]
