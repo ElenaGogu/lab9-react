@@ -6,9 +6,9 @@ function directLiteraMare(valoare) {
 
 function PaginaStart(){
     const [numele, setNumele] = useState("");
-    const [categoria, setCategoria] = useState("Toate Categoriile");
-    const [nrIntrebari, setNrIntrebari] = useState("15 intrebari");
-    const [timp, setTimp] = useState("15 secunde");
+    const [categoria, setCategoria] = useState("");
+    const [nrIntrebari, setNrIntrebari] = useState("");
+    const [timp, setTimp] = useState("");
     const [erori, setEroare] = useState({
         nume: "",
         categorie: "",
@@ -47,10 +47,9 @@ function PaginaStart(){
         setEroare({...erori, timp: "Selecteaza timpul!"});
         return;
         }
-        
-        setEroare("");
-        
-        console.log({numele, categoria, nrIntrebari, timp, erori});
+
+        setEroare({nume:"", categorie:"", nrIntrebari:"", timp:""});
+        console.log({numele, categoria, nrIntrebari, timp});
 
         setNumele(directLiteraMare(numele));
     }
