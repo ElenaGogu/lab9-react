@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function directLiteraMare(valoare) {
-    return valoare.charAt(0).toUpperCase() + valoare.slice(1).toLowerCase();
+    return valoare.toLowerCase();
 }
 
 function PaginaStart(){
@@ -21,15 +21,15 @@ function PaginaStart(){
         e.preventDefault();
         
         if (numele.trim() === ""){
-            setEroare({...erori, numele: "Numele nu este introdus"});
+            setEroare({...erori, nume: "Numele nu este introdus"});
             return;
         }
         if (numele.trim().length < 3){
-            setEroare({...erori, numele: "Numele nu are 3 caractere"});
+            setEroare({...erori, nume: "Numele nu are 3 caractere"});
             return;
         }
         if (!/^[a-zA-ZăâîșțĂÂÎȘȚ\s]+$/.test(numele)) {
-            setEroare({...erori, numele: "Numele poate contine doar litere!"});
+            setEroare({...erori, nume: "Numele poate contine doar litere!"});
             return;
         }
 
@@ -39,7 +39,7 @@ function PaginaStart(){
         }
 
         if (!nrIntrebari) {
-        setEroare({...erori, nrIntrebari: "Selecteaza categoria!"});
+        setEroare({...erori, nrIntrebari: "Selecteaza nr de intrebari!"});
         return;
         }
 
@@ -70,13 +70,14 @@ function PaginaStart(){
             </div>
             <div className="categoriile">
                 <label>Categoria</label>
+    
                 <select 
                     value={categoria}
                     onChange={(e) => setCategoria(e.target.value)}>
-                    <option value="Toate">Toate Categoriile</option>
+                    <option value="">Alege categoria</option>
                     <option value="React">React</option>
-                    <option value="Java Script">Java script</option>
-                    <option value= "HTML">HTML</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value= "HTML & CSS">HTML & CSS</option>
                 </select>
                 {erori.categorie && <span style={{ color: "red" }}>{erori.categorie}</span>}
             </div>
@@ -85,10 +86,11 @@ function PaginaStart(){
                 <select
                     value={nrIntrebari}
                     onChange={(e) => setNrIntrebari(e.target.value)}>
-                    <option>15 intrebari</option>
-                    <option>25 intrebari</option>
-                    <option>35 intrebari</option>
-                    <option>45 intrebari</option>
+                    <option value="">Alege nr de intrabari</option>
+                    <option value="15">15 intrebari</option>
+                    <option value="25">25 intrebari</option>
+                    <option value="35">35 intrebari</option>
+                    <option value="45">45 intrebari</option>
                 </select>
                 {erori.nrIntrebari && <span style={{ color: "red" }}>{erori.nrIntrebari}</span>}
             </div>
@@ -97,6 +99,7 @@ function PaginaStart(){
                 <select
                     value={timp}
                     onChange={(e) => setTimp(e.target.value)}>
+                    <option value="">Alege timpul</option>
                     <option value="15">15 secunde</option>
                     <option value="20">20 secunde</option>
                     <option value="25">25 secunde</option>
@@ -106,7 +109,7 @@ function PaginaStart(){
             </div>
             <div className="butoanele">
                 <button type="submit" className="incepeBtn">Incepe Quizul</button>
-                <button type="submit"className="darkLight">Schimba tema</button>
+                <button type="button"className="darkLight">Schimba tema</button>
             </div>
         </form>
         </>
