@@ -24,7 +24,7 @@ function PaginaDeIntrebari() {
   }
 
   return (
-    <div className="PaginaIntrebari">
+    <div className="paginaIntrebari">
       <h3>
         Intrebarea {stare.intrebareaCurenta + 1} din {stare.nrIntrebari}
       </h3>

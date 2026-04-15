@@ -10,7 +10,6 @@ const stareInitiala = {
   intrebari: [],
   raspunsuri: [],
   scor: 0,
-  scorMaxim: 0,
   nrCorecte: 0,
 };
 
@@ -27,13 +26,6 @@ function quizReducer(stare, actiune) {
         categorie: actiune.payload.categorie,
         nrIntrebari: actiune.payload.nrIntrebari,
         timp: actiune.payload.timp,
-        intrebari: actiune.payload.intrebari,
-        intrebareaCurenta: 0,
-        raspunsuri: [],
-        scor: 0,
-        scorMaxim: 0,
-        nrCorecte: 0,
-
       };
 
     case "alegeRaspuns":{ 
