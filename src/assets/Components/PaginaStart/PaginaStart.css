@@ -1,0 +1,36 @@
+.denumire { text-align: center; font-size: 2rem; margin: 2rem 0 1rem; }
+
+form {
+  max-width: 460px; margin: 0 auto; padding: 2rem;
+  display: flex; flex-direction: column; gap: 1.2rem;
+  background: #fff; border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+body.dark form { background: #16213e; }
+
+.numeleUtiliz, .categoriile, .alegeNrDeIntreb, .alegeTimp {
+  display: flex; flex-direction: column; gap: 6px;
+}
+
+input[type="text"], select {
+  padding: 10px 12px; border: 1px solid #ccc;
+  border-radius: 8px; font-size: 1rem; background: #fafafa; color: #222;
+}
+body.dark input[type="text"],
+body.dark select { background: #0f3460; color: #eee; border-color: #444; }
+
+.butoanele { display: flex; gap: 12px; }
+
+.incepeBtn {
+  flex: 1; padding: 12px; background: #6c63ff;
+  color: #fff; border: none; border-radius: 8px;
+  font-size: 1rem; cursor: pointer;
+}
+.incepeBtn:hover { background: #574fd6; }
+
+.darkLight {
+  padding: 12px 18px; background: transparent;
+  border: 1px solid #6c63ff; color: #6c63ff;
+  border-radius: 8px; cursor: pointer;
+}
+.darkLight:hover { background: #6c63ff; color: #fff; }

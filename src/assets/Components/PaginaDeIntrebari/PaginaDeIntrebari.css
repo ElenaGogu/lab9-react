@@ -1,0 +1,23 @@
+.paginaIntrebari {
+  max-width: 600px; margin: 2rem auto; padding: 2rem;
+  background: #fff; border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  display: flex; flex-direction: column; gap: 1rem;
+}
+body.dark .paginaIntrebari { background: #16213e; }
+
+.butoane { display: flex; flex-direction: column; gap: 10px; }
+
+.btnNeapasat {
+  padding: 12px 16px; border: 1px solid #ccc;
+  border-radius: 8px; background: #fafafa;
+  color: #222; font-size: 1rem; text-align: left; cursor: pointer;
+}
+.btnNeapasat:hover:not(:disabled) { background: #ede8ff; border-color: #6c63ff; }
+
+.btnCorect   { padding: 12px 16px; border: 2px solid #27ae60; border-radius: 8px; background: #d4edda; color: #155724; font-size: 1rem; text-align: left; }
+.btnGresit   { padding: 12px 16px; border: 2px solid #e74c3c; border-radius: 8px; background: #f8d7da; color: #721c24; font-size: 1rem; text-align: left; }
+.btnGresitArataRas { padding: 12px 16px; border: 2px solid #27ae60; border-radius: 8px; background: #d4edda; color: #155724; font-size: 1rem; text-align: left; }
+
+.feedbCorect { padding: 8px; border-radius: 8px; background: #d4edda; color: #27ae60; font-weight: 500; text-align: center; }
+.feedbGresit { padding: 8px; border-radius: 8px; background: #f8d7da; color: #e74c3c; font-weight: 500; text-align: center; }

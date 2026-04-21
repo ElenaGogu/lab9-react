@@ -1,0 +1,38 @@
+.rezultate {
+  max-width: 700px; margin: 2rem auto; padding: 2rem;
+  display: flex; flex-direction: column; gap: 1.5rem;
+}
+
+.scor { text-align: center; }
+.scor h2 { font-size: 2rem; color: #6c63ff; }
+
+.afisareBtn { display: flex; gap: 10px; justify-content: center; }
+.afisareBtn button {
+  padding: 8px 20px; border: 1px solid #ccc;
+  border-radius: 20px; background: transparent; cursor: pointer;
+}
+.afisareBtn button.activ { background: #6c63ff; color: #fff; border-color: #6c63ff; }
+
+.breakdown { background: #f0eeff; border-radius: 10px; padding: 1.2rem; }
+body.dark .breakdown { background: #16213e; }
+
+.raspunsuri { display: flex; flex-direction: column; gap: 12px; }
+
+.card { padding: 1rem 1.2rem; border-radius: 10px; }
+.card.corect { background: #d4edda; border-left: 4px solid #27ae60; color: #155724; }
+.card.gresit  { background: #f8d7da; border-left: 4px solid #e74c3c; color: #721c24; }
+
+.istoric { background: #fff; border-radius: 10px; padding: 1.2rem; }
+body.dark .istoric { background: #16213e; }
+
+.tabelIstoric { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.tabelIstoric th, .tabelIstoric td { padding: 10px 12px; border-bottom: 1px solid #eee; text-align: left; }
+.tabelIstoric th { color: #6c63ff; font-weight: 500; }
+.tabelIstoric td.procent { color: #27ae60; font-weight: 500; }
+
+.reseteazaBtn {
+  padding: 12px 32px; background: #e74c3c; color: #fff;
+  border: none; border-radius: 8px; font-size: 1rem;
+  cursor: pointer; align-self: center;
+}
+.reseteazaBtn:hover { background: #c0392b; }
