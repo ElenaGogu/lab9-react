@@ -1,6 +1,6 @@
 import useLocalStorage from "../../hooks/useLocalStorage";
 import { createContext, useEffect } from "react";
-import "./ContextTema.css";
+
 
 export const TemaContext = createContext();
 
